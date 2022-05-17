@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORM</title>
+    <style>
+        fieldset{display: inline; 
+        background-color:rgb(143, 202, 229);}
+        body{
+        line-height: 300%;
+        }
+        textarea{
+            width: 300px;
+            height: 130px;
+        }
+        button{word-spacing: 2px;}
+        .font{font-family: 'Courier New', Courier, monospace;}
+    </style>
+</head>
+<body style="text-align: center;">
+    <h1 class="font"><u>Uki-Student</u></h1>
+    <form>
+    <fieldset>
+        <legend class="font">Uki.life</legend>
+
+        <table>
+            
+            <tr>
+                <td>
+                    <label for="firstname" class="font">First Name</label></td>
+                <td>:</td>
+                <td colspan="1"><input type="text" placeholder="type here"></td>
+            </tr>
+
+            <tr>
+                <td><label for="lastname" class="font">Last Name</label></td>
+                <td>:</td>
+                <td colspan="1"><input type="text" placeholder="type here"></td>
+            </tr>
+
+            <tr>
+                <td><label for="firstname" class="font">Reg.No</label></td>
+                <td>:</td>
+                <td colspan="1"><input type="text" placeholder="type here"></td>
+            </tr>
+
+            <tr>
+                <td><label for="firstname" class="font">Date of birth</label></td>
+                <td>:</td>
+                <td colspan="1"><input type="text" placeholder="type here"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender" class="font">Gender</label></td>
+                <td>:</td>
+                <td colspan="1" style="text-align: center;"><pre><input type="radio" id="male" name="gender"><label class="font">Male</label>    <input type="radio" id="female" name="gender"><label class="font">Female</label></pre></td>
+            </tr>
+
+            <tr>
+                <td><label style="text-align: left;" class="font">Fav.Subject</label></td>
+                <td colspan="3" style="text-align: left;">:</td>
+             </tr>
+
+            <tr>
+                <td colspan="4" style="text-align:center;"><input type="checkbox" id="programming" name="programming">
+                    <label class="font">Programming</label>
+                    <input type="checkbox" id="business" name="business">
+                    <label class="font">Business</label>
+                    <input type="checkbox" id="pcoaching" name="pcoaching">
+                    <label class="font">Personal coaching</label>
+                    <input type="checkbox" id="english" name="english">
+                    <label class="font">English</label></td>
+            </tr>
+            <tr>
+                <td colspan="4"><label for="feedback" class="font">Feedback</label></td>
+            </tr>
+
+            <tr>
+                <td colspan="4"><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align:center;"><pre><button class="font">SUBMIT</button>   <button class="font">RESET</button></pre></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>student-form</title>
+    <style>
+        fieldset{display: inline; 
+        background-color:rgb(37, 150, 190);}
+        body{
+        line-height: 300%;
+        }
+        textarea{
+            width: 300px;
+            height: 130px;
+        }
+        button{word-spacing: 2px;}
+        .font{font-family: 'Courier New', Courier, monospace;}
+        .align{float: left;
+        margin-left: 50px;}
+        
+    </style>
+</head>
+<body style="text-align: center;">
+    <h1><u>Uki-Student</u></h1>
+    <form>
+    <fieldset>
+        <legend>Uki.life</legend>
+        <label for="firstname" class="font">
+           <span class="align">First Name</span> 
+            <span class="align">:</span></label>
+            <input type="text" placeholder="type here"><br>
+        <label for="lastname" class="font">Last Name:</label>
+            <input type="text" placeholder="type here"><br>
+        <label for="firstname" class="font">Reg.No:</label>
+            <input type="text" placeholder="type here"><br>
+        <label for="firstname" class="font">Date of birth:</label>
+            <input type="text" placeholder="type here"><br>
+        <label for="gender" class="font">Gender    :</label>
+            <input type="radio" id="male" name="gender">
+        <label class="font" class="font">Male</label>
+            <input type="radio" id="female" name="gender">
+        <label class="font">Female</label><br>
+        <label style="text-align: left;" class="font">Fav.Subject:</label><br>
+            <input type="checkbox" id="programming" name="programming">
+        <label class="font" class="font">Programming</label>
+            <input type="checkbox" id="business" name="business">
+        <label class="font" class="font">Business</label>
+            <input type="checkbox" id="pcoaching" name="pcoaching">
+        <label class="font">Personal coaching</label>
+           <input type="checkbox" id="english" name="english">
+        <label class="font">English</label><br>
+        <label for="feedback" class="font">Feedback</label><br>
+        <textarea></textarea><br>
+        <button>SUBMIT</button><button>RESET</button>
+    </fieldset>
+    </form>
+</body>
+</html>
